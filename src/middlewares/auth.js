@@ -20,6 +20,7 @@ const authMiddleware = async (req, res, next) => {
     req.user = decoded; // pode acessar req.user nos próximos middlewares
     next();
   } catch (err) {
+    err;
     return res.status(403).json({ erro: "Token inválido" });
   }
 };

@@ -23,9 +23,9 @@ postResend = async (req, res) => {
   }
 
   // Gera novo token e envia e-mail
-  /*const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET_VERIFYEMAIL, {
+  const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET_VERIFYEMAIL, {
     expiresIn: "1h",
-  });*/
+  });
 
   const success = await sendEmail(email, "Verificação", `...`);
 

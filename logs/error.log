@@ -1,29 +1,244 @@
-
-[2025-07-17T07:31:58.721Z] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-    at ServerResponse.setHeader (node:_http_outgoing:642:11)
-    at ServerResponse.header (C:\Users\helio\Desktop\express\backend\node_modules\express\lib\response.js:684:10)
-    at ServerResponse.send (C:\Users\helio\Desktop\express\backend\node_modules\express\lib\response.js:161:12)
-    at ServerResponse.json (C:\Users\helio\Desktop\express\backend\node_modules\express\lib\response.js:250:15)
-    at postResend (C:\Users\helio\Desktop\express\backend\src\controllers\ResendController.js:38:28)
+[2025-07-17T22:28:22.539Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-07-17T07:43:39.800Z] SyntaxError: Expected ',' or '}' after property value in JSON at position 33 (line 3 column 3)
-    at JSON.parse (<anonymous>)
-    at parse (C:\Users\helio\Desktop\express\backend\node_modules\body-parser\lib\types\json.js:77:19)
-    at C:\Users\helio\Desktop\express\backend\node_modules\body-parser\lib\read.js:123:18
-    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
-    at invokeCallback (C:\Users\helio\Desktop\express\backend\node_modules\raw-body\index.js:238:16)
-    at done (C:\Users\helio\Desktop\express\backend\node_modules\raw-body\index.js:227:7)
-    at IncomingMessage.onEnd (C:\Users\helio\Desktop\express\backend\node_modules\raw-body\index.js:287:7)
-    at IncomingMessage.emit (node:events:507:28)
-    at endReadableNT (node:internal/streams/readable:1701:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-
-[2025-07-17T07:45:42.827Z] TypeError: user.save is not a function
-    at postResend (C:\Users\helio\Desktop\express\backend\src\controllers\ResendController.js:34:16)
+[2025-07-17T22:28:24.511Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 
-[2025-07-17T07:46:13.043Z] TypeError: user.save is not a function
-    at postResend (C:\Users\helio\Desktop\express\backend\src\controllers\ResendController.js:34:16)
+[2025-07-17T22:28:25.524Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:28:31.403Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:28:41.207Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:28:42.177Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:28:42.685Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:28:46.485Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:29:55.097Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:16:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:48:53.984Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:48:55.793Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:48:57.088Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:40.904Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:41.823Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:42.278Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:42.550Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:42.806Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:43.015Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T22:53:43.234Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:00:01.214Z] TypeError: Cannot read properties of null (reading 'isAdmin')
+    at DeleteUserController (C:\Users\helio\Desktop\express\backend\src\controllers\DeleteUserController.js:14:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:00:04.800Z] TypeError: Cannot read properties of null (reading 'isAdmin')
+    at DeleteUserController (C:\Users\helio\Desktop\express\backend\src\controllers\DeleteUserController.js:14:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:00:27.863Z] TypeError: Cannot read properties of null (reading 'isAdmin')
+    at DeleteUserController (C:\Users\helio\Desktop\express\backend\src\controllers\DeleteUserController.js:14:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:01:53.538Z] TypeError: Cannot read properties of null (reading 'isAdmin')
+    at DeleteUserController (C:\Users\helio\Desktop\express\backend\src\controllers\DeleteUserController.js:14:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:01:54.822Z] TypeError: Cannot read properties of null (reading 'isAdmin')
+    at DeleteUserController (C:\Users\helio\Desktop\express\backend\src\controllers\DeleteUserController.js:14:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:03:30.640Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:03:33.798Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:03:36.368Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:03:46.567Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:02.923Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:28.197Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:29.132Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:29.523Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:29.851Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:04:30.250Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:35.327Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:36.052Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:49.178Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:55.557Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:56.269Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:56.829Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:57.308Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:05:57.765Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:02.406Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:03.157Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:03.915Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:04.395Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:05.948Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:06.166Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:06.363Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:06.539Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:06.924Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:07.107Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:07.325Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:07.523Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:07.724Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:07.923Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:08.106Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:08.300Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:16.898Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:22.714Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+[2025-07-17T23:06:23.234Z] TypeError: Cannot read properties of null (reading 'isValid')
+    at postLogin (C:\Users\helio\Desktop\express\backend\src\controllers\LoginController.js:17:15)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
 

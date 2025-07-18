@@ -14,6 +14,9 @@ const postLogin = async (req, res, next) => {
     const query = email ? { email } : { username };
     const user = await Usuario.findOne(query);
 
+    if (!user) {
+      return res.status(401).json({ erro: "Credenciais inválidas" });
+    }
     if (!user.isValid) {
       return res
         .status(403)

@@ -8,7 +8,7 @@ module.exports = class HttpError extends Error {
   static unauthorized() {
     return new HttpError(
       401,
-      "The user is not authorized to perform requested actions."
+      "The user is not authorized to perform requested actions.",
     );
   }
 

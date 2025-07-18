@@ -36,7 +36,7 @@ const postRegister = async (req, res, next) => {
       process.env.JWT_SECRET_VERIFYEMAIL,
       {
         expiresIn: "1h",
-      }
+      },
     );
 
     const link = `${process.env.FRONTEND_URL}/verify?token=${token}`;
@@ -54,7 +54,7 @@ curl -X POST http://localhost:3000/verify \\
   -H "Content-Type: application/json" \\
   -d '{ "token": "${token.replace(/"/g, '\\"')}" }'
   </pre>
-  `
+  `,
     );
 
     if (!success) {

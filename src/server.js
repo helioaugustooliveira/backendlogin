@@ -8,6 +8,7 @@ const registerRouter = require("./routes/RegisterRoute");
 const verifyRouter = require("./routes/VerifyRoute");
 const dashbordRouter = require("./routes/DashbordRoute");
 const resendEmailRouter = require("./routes/ResendVerifyEmailRoute");
+const deleteUserRouter = require("./routes/DeleteUserRoute");
 const errorHandler = require("./middlewares/ApiError");
 
 const app = express();
@@ -29,6 +30,7 @@ app.use(registerRouter);
 app.use(dashbordRouter);
 app.use(verifyRouter);
 app.use(resendEmailRouter);
+app.use(deleteUserRouter);
 
 app.use(errorHandler);
 
